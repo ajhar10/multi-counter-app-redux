@@ -24,7 +24,7 @@ const decrement= (valueObj)=>{
 //Generate Counter Block Using js node creator
 function generateCounterBlock(counter_index){
     const counter_div = document.createElement("div");
-    counter_div.className = 'p-4 h-auto flex flex-col items-center justify-center space-y-5 bg-white rounded shadow';
+    counter_div.className = 'p-4 mt-2 h-auto flex flex-col items-center justify-center space-y-5 bg-white rounded shadow';
     counter_div.id='counter_' + counter_index;
 
     const result_div = document.createElement("div");
